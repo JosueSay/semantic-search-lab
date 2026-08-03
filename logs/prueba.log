@@ -1,0 +1,80 @@
+Modo: prueba
+Corpus: 25 oraciones
+Embeddings: (25, 384) (embeddings\embeddings-b9f509d99adf.npy)
+
+Consulta: ¿cada cuánto hay que llevar la mascota al veterinario?
+Semántico
+	0.8159  Llevar la mascota al veterinario una vez al año previene enfermedades graves.
+	0.6512  Los perros necesitan al menos una caminata diaria para mantenerse sanos.
+	0.6298  Antes de comprar una mascota conviene considerar la adopción responsable.
+	0.5938  Mi cachorro labrador aprendió a sentarse en apenas dos semanas de entrenamiento.
+	0.5693  Un perro que ladra en exceso puede estar sufriendo ansiedad por separación.
+Léxico
+	     3  Llevar la mascota al veterinario una vez al año previene enfermedades graves.
+	     1  Darle comida de humanos a la mascota puede causarle problemas digestivos.
+	     1  La desparasitación con pastillas debe repetirse cada tres o cuatro meses.
+	     1  Antes de comprar una mascota conviene considerar la adopción responsable.
+	     1  Los albergues locales reciben decenas de animales abandonados cada mes.
+	Coinciden en el top-1.
+
+Consulta: ¿qué alimentos son tóxicos para perros y gatos?
+Semántico
+	0.8554  El chocolate y la cebolla son tóxicos para perros y gatos.
+	0.5787  Darle comida de humanos a la mascota puede causarle problemas digestivos.
+	0.5312  Llevar la mascota al veterinario una vez al año previene enfermedades graves.
+	0.5206  La alimentación balanceada previene la obesidad en animales domésticos.
+	0.4471  Un perro que ladra en exceso puede estar sufriendo ansiedad por separación.
+Léxico
+	     3  El chocolate y la cebolla son tóxicos para perros y gatos.
+	     1  Los perros necesitan al menos una caminata diaria para mantenerse sanos.
+	     1  Los gatos duermen entre catorce y dieciséis horas al día.
+	Coinciden en el top-1.
+
+Consulta: ¿cómo saber si mi mascota está enferma?
+Semántico
+	0.6707  Llevar la mascota al veterinario una vez al año previene enfermedades graves.
+	0.6128  Un perro que ladra en exceso puede estar sufriendo ansiedad por separación.
+	0.5500  Darle comida de humanos a la mascota puede causarle problemas digestivos.
+	0.5448  Mi cachorro labrador aprendió a sentarse en apenas dos semanas de entrenamiento.
+	0.5130  Sacar al can con su correa a pasear todas las tardes mejora su comportamiento en casa.
+Léxico
+	     1  Darle comida de humanos a la mascota puede causarle problemas digestivos.
+	     1  Llevar la mascota al veterinario una vez al año previene enfermedades graves.
+	     1  Antes de comprar una mascota conviene considerar la adopción responsable.
+	Se separan en el top-1.
+
+Consulta: ¿qué cuidados necesita un gato adulto?
+Semántico
+	0.6761  Un gato adulto suele ser más independiente que un perro de la misma edad.
+	0.5798  Es importante limpiar la caja de arena del gato todos los días.
+	0.5599  Los gatos duermen entre catorce y dieciséis horas al día.
+	0.5149  Antes de comprar una mascota conviene considerar la adopción responsable.
+	0.4831  Llevar la mascota al veterinario una vez al año previene enfermedades graves.
+Léxico
+	     2  Un gato adulto suele ser más independiente que un perro de la misma edad.
+	     1  Es importante limpiar la caja de arena del gato todos los días.
+	Coinciden en el top-1.
+
+Consulta: ¿cómo entrenar a un cachorro para que haga sus necesidades afuera?
+Semántico
+	0.6875  Los perros necesitan al menos una caminata diaria para mantenerse sanos.
+	0.6734  Sacar al can con su correa a pasear todas las tardes mejora su comportamiento en casa.
+	0.6451  Mi cachorro labrador aprendió a sentarse en apenas dos semanas de entrenamiento.
+	0.5967  Llevar la mascota al veterinario una vez al año previene enfermedades graves.
+	0.5895  Un perro que ladra en exceso puede estar sufriendo ansiedad por separación.
+Léxico
+	     1  Mi cachorro labrador aprendió a sentarse en apenas dos semanas de entrenamiento.
+	Se separan en el top-1.
+
+Consulta: ¿cuánto tiempo pasan dormidos los felinos?
+Semántico
+	0.7932  Los gatos duermen entre catorce y dieciséis horas al día.
+	0.6186  Mi felino se pasa la tarde durmiendo en la ventana bajo el sol.
+	0.5153  Es importante limpiar la caja de arena del gato todos los días.
+	0.4996  Un gato adulto suele ser más independiente que un perro de la misma edad.
+	0.3569  La desparasitación con pastillas debe repetirse cada tres o cuatro meses.
+Léxico
+	(sin resultados)
+	Se separan: el léxico no recuperó nada.
+
+Top-1 coincidente en 3/6 consultas.

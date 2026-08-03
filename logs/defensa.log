@@ -1,0 +1,117 @@
+Modo: defensa
+ORACIONES_ATAQUE_RECIBIDAS está vacía: se usan las simuladas.
+Pegá las oraciones reales en corpus.py cuando lleguen.
+
+Corpus: 30 oraciones
+Embeddings: (30, 384) (embeddings\embeddings-2925a34102a6.npy)
+
+Corpus propio (25 oraciones) + 5 oraciones intrusas.
+
+Consulta: ¿cada cuánto hay que llevar la mascota al veterinario?
+	1. 0.8159  Llevar la mascota al veterinario una vez al año previene enfermedades graves.
+	2. 0.6512  Los perros necesitan al menos una caminata diaria para mantenerse sanos.
+	3. 0.6298  Antes de comprar una mascota conviene considerar la adopción responsable.
+	4. 0.5938  Mi cachorro labrador aprendió a sentarse en apenas dos semanas de entrenamiento.
+	5. 0.5693  Un perro que ladra en exceso puede estar sufriendo ansiedad por separación.
+  Blindaje: ACEPTADO
+
+Consulta: ¿qué alimentos son tóxicos para perros y gatos?
+	1. 0.8554  El chocolate y la cebolla son tóxicos para perros y gatos.
+	2. 0.5787  Darle comida de humanos a la mascota puede causarle problemas digestivos.
+	3. 0.5312  Llevar la mascota al veterinario una vez al año previene enfermedades graves.
+	4. 0.5206  La alimentación balanceada previene la obesidad en animales domésticos.
+	5. 0.4471  Un perro que ladra en exceso puede estar sufriendo ansiedad por separación.
+  Blindaje: ACEPTADO
+
+Consulta: ¿cómo saber si mi mascota está enferma?
+	1. 0.6707  Llevar la mascota al veterinario una vez al año previene enfermedades graves.
+	2. 0.6128  Un perro que ladra en exceso puede estar sufriendo ansiedad por separación.
+	3. 0.5500  Darle comida de humanos a la mascota puede causarle problemas digestivos.
+	4. 0.5448  Mi cachorro labrador aprendió a sentarse en apenas dos semanas de entrenamiento.
+	5. 0.5130  Sacar al can con su correa a pasear todas las tardes mejora su comportamiento en casa.
+  Blindaje: DISCREPANCIA (los dos métodos apuntan a documentos distintos)
+
+Consulta: ¿qué cuidados necesita un gato adulto?
+	1. 0.6761  Un gato adulto suele ser más independiente que un perro de la misma edad.
+	2. 0.5798  Es importante limpiar la caja de arena del gato todos los días.
+	3. 0.5599  Los gatos duermen entre catorce y dieciséis horas al día.
+	4. 0.5215  El gato hidráulico soporta hasta dos toneladas y se guarda en la cajuela.  <-- INTRUSO
+	5. 0.5149  Antes de comprar una mascota conviene considerar la adopción responsable.
+  Blindaje: ACEPTADO
+
+Consulta: ¿cómo entrenar a un cachorro para que haga sus necesidades afuera?
+	1. 0.6875  Los perros necesitan al menos una caminata diaria para mantenerse sanos.
+	2. 0.6734  Sacar al can con su correa a pasear todas las tardes mejora su comportamiento en casa.
+	3. 0.6451  Mi cachorro labrador aprendió a sentarse en apenas dos semanas de entrenamiento.
+	4. 0.5967  Llevar la mascota al veterinario una vez al año previene enfermedades graves.
+	5. 0.5895  Un perro que ladra en exceso puede estar sufriendo ansiedad por separación.
+  Blindaje: AMBIGUO (margen top-1/top-2 de 0.0141)
+
+Consulta: ¿cuánto tiempo pasan dormidos los felinos?
+	1. 0.7932  Los gatos duermen entre catorce y dieciséis horas al día.
+	2. 0.6186  Mi felino se pasa la tarde durmiendo en la ventana bajo el sol.
+	3. 0.5153  Es importante limpiar la caja de arena del gato todos los días.
+	4. 0.4996  Un gato adulto suele ser más independiente que un perro de la misma edad.
+	5. 0.4227  El gato hidráulico soporta hasta dos toneladas y se guarda en la cajuela.  <-- INTRUSO
+  Blindaje: ACEPTADO
+
+Consulta: ¿cada cuánto se le cambia la correa?
+	1. 0.4338  La desparasitación con pastillas debe repetirse cada tres o cuatro meses.
+	2. 0.3988  La correa de distribución se cambia cada sesenta mil kilómetros.  <-- INTRUSO
+	3. 0.3668  Las pastillas de freno ya están gastadas y chillan al frenar.  <-- INTRUSO
+	4. 0.2674  Mi cachorro labrador aprendió a sentarse en apenas dos semanas de entrenamiento.
+	5. 0.2252  Un cambio repentino de apetito puede ser señal de que algo anda mal.
+  Blindaje: AMBIGUO (margen top-1/top-2 de 0.0349)
+
+Consulta: necesito un gato
+	1. 0.5411  Es importante limpiar la caja de arena del gato todos los días.
+	2. 0.5097  Los gatos duermen entre catorce y dieciséis horas al día.
+	3. 0.4979  Un gato adulto suele ser más independiente que un perro de la misma edad.
+	4. 0.4680  El gato hidráulico soporta hasta dos toneladas y se guarda en la cajuela.  <-- INTRUSO
+	5. 0.4092  Mi felino se pasa la tarde durmiendo en la ventana bajo el sol.
+  Blindaje: AMBIGUO (margen top-1/top-2 de 0.0314)
+
+Consulta: la caja está sucia
+	1. 0.4843  La caja de cambios empezó a fallar al meter la segunda.  <-- INTRUSO
+	2. 0.4210  El filtro de aceite se tapó y hubo que cambiarlo en el taller.  <-- INTRUSO
+	3. 0.3611  Los mininos marcan su territorio frotando la cabeza contra los muebles.
+	4. 0.3545  Las pastillas de freno ya están gastadas y chillan al frenar.  <-- INTRUSO
+	5. 0.3508  El gato hidráulico soporta hasta dos toneladas y se guarda en la cajuela.  <-- INTRUSO
+  Blindaje: DISCREPANCIA (los dos métodos apuntan a documentos distintos)
+	Con prefijo de dominio el top-1 vuelve a ser propio: 0.5684 Darle comida de humanos a la mascota puede causarle problemas digestivos.
+
+Consulta: se me acabaron las pastillas
+	1. 0.3438  Los mininos marcan su territorio frotando la cabeza contra los muebles.
+	2. 0.3370  Las pastillas de freno ya están gastadas y chillan al frenar.  <-- INTRUSO
+	3. 0.3067  Un cambio repentino de apetito puede ser señal de que algo anda mal.
+	4. 0.2188  Siempre hay que dejar un recipiente con agua limpia al alcance del animal.
+	5. 0.2162  Es importante limpiar la caja de arena del gato todos los días.
+  Blindaje: RECHAZADO (similitud 0.3438 bajo el umbral 0.35)
+
+Consulta: el filtro dejó de funcionar
+	1. 0.5645  El filtro de aceite se tapó y hubo que cambiarlo en el taller.  <-- INTRUSO
+	2. 0.4148  La caja de cambios empezó a fallar al meter la segunda.  <-- INTRUSO
+	3. 0.2925  Las pastillas de freno ya están gastadas y chillan al frenar.  <-- INTRUSO
+	4. 0.2356  Los peces tropicales requieren un filtro limpio y temperatura estable en el acuario.
+	5. 0.2292  El gato hidráulico soporta hasta dos toneladas y se guarda en la cajuela.  <-- INTRUSO
+  Blindaje: DISCREPANCIA (los dos métodos apuntan a documentos distintos)
+	Con prefijo de dominio el top-1 vuelve a ser propio: 0.5936 Llevar la mascota al veterinario una vez al año previene enfermedades graves.
+
+Consulta: arranca a correr apenas abro la puerta
+	1. 0.3663  Las pastillas de freno ya están gastadas y chillan al frenar.  <-- INTRUSO
+	2. 0.2742  La caja de cambios empezó a fallar al meter la segunda.  <-- INTRUSO
+	3. 0.2463  Las razas grandes suelen requerir más espacio y ejercicio que las pequeñas.
+	4. 0.2332  Mi felino se pasa la tarde durmiendo en la ventana bajo el sol.
+	5. 0.2309  Los mininos marcan su territorio frotando la cabeza contra los muebles.
+  Blindaje: DISCREPANCIA (los dos métodos apuntan a documentos distintos)
+	Con prefijo de dominio el top-1 vuelve a ser propio: 0.6237 Llevar la mascota al veterinario una vez al año previene enfermedades graves.
+
+======================================================================
+Resumen de la defensa
+======================================================================
+Consultas evaluadas: 12
+Intruso en top-1 sin blindaje: 3
+Intruso entregado como respuesta con blindaje: 0
+Recuperadas por el prefijo de dominio: 3
+
+Corrida con oraciones simuladas.

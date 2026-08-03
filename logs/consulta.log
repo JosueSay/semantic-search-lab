@@ -1,0 +1,78 @@
+Modo: consulta
+ORACIONES_ATAQUE_RECIBIDAS está vacía: se usan las simuladas.
+Pegá las oraciones reales en corpus.py cuando lleguen.
+
+Corpus: 25 oraciones
+Embeddings: (25, 384) (embeddings\embeddings-b9f509d99adf.npy)
+
+Corpus propio limpio (25 oraciones). Las 5 oraciones del otro equipo se usan como consulta, no se indexan.
+Umbral: 0.35 | Margen mínimo: 0.05
+
+Consulta intrusa: El gato hidráulico soporta hasta dos toneladas y se guarda en la cajuela.
+Semántico
+	0.5796  Es importante limpiar la caja de arena del gato todos los días.
+	0.4428  Un gato adulto suele ser más independiente que un perro de la misma edad.
+	0.4409  Siempre hay que dejar un recipiente con agua limpia al alcance del animal.
+	0.4226  Los gatos duermen entre catorce y dieciséis horas al día.
+	0.3595  Mi felino se pasa la tarde durmiendo en la ventana bajo el sol.
+Léxico
+	     1  Mi cachorro labrador aprendió a sentarse en apenas dos semanas de entrenamiento.
+	     1  Es importante limpiar la caja de arena del gato todos los días.
+	     1  Un gato adulto suele ser más independiente que un perro de la misma edad.
+	Blindaje: DISCREPANCIA (los dos métodos apuntan a documentos distintos)
+
+Consulta intrusa: La correa de distribución se cambia cada sesenta mil kilómetros.
+Semántico
+	0.2571  Esterilizar a los animales ayuda a controlar la sobrepoblación en las calles.
+	0.2120  La desparasitación con pastillas debe repetirse cada tres o cuatro meses.
+	0.2057  Los perros necesitan al menos una caminata diaria para mantenerse sanos.
+	0.1974  Los albergues locales reciben decenas de animales abandonados cada mes.
+	0.1658  Las razas grandes suelen requerir más espacio y ejercicio que las pequeñas.
+Léxico
+	     1  Sacar al can con su correa a pasear todas las tardes mejora su comportamiento en casa.
+	     1  La desparasitación con pastillas debe repetirse cada tres o cuatro meses.
+	     1  Los albergues locales reciben decenas de animales abandonados cada mes.
+	Blindaje: RECHAZADO (similitud 0.2571 bajo el umbral 0.35)
+
+Consulta intrusa: La caja de cambios empezó a fallar al meter la segunda.
+Semántico
+	0.3026  Un cambio repentino de apetito puede ser señal de que algo anda mal.
+	0.1941  La desparasitación con pastillas debe repetirse cada tres o cuatro meses.
+	0.1630  Los mininos marcan su territorio frotando la cabeza contra los muebles.
+	0.1595  Adoptar un animal de un refugio le da una segunda oportunidad de vida.
+	0.1513  Un perro que ladra en exceso puede estar sufriendo ansiedad por separación.
+Léxico
+	     1  Es importante limpiar la caja de arena del gato todos los días.
+	     1  Adoptar un animal de un refugio le da una segunda oportunidad de vida.
+	Blindaje: RECHAZADO (similitud 0.3026 bajo el umbral 0.35)
+
+Consulta intrusa: Las pastillas de freno ya están gastadas y chillan al frenar.
+Semántico
+	0.2809  Los mininos marcan su territorio frotando la cabeza contra los muebles.
+	0.2504  La desparasitación con pastillas debe repetirse cada tres o cuatro meses.
+	0.1929  Es importante limpiar la caja de arena del gato todos los días.
+	0.1913  Las razas grandes suelen requerir más espacio y ejercicio que las pequeñas.
+	0.1872  Las aves domésticas cantan más cuando reciben luz natural por la mañana.
+Léxico
+	     1  La desparasitación con pastillas debe repetirse cada tres o cuatro meses.
+	Blindaje: RECHAZADO (similitud 0.2809 bajo el umbral 0.35)
+
+Consulta intrusa: El filtro de aceite se tapó y hubo que cambiarlo en el taller.
+Semántico
+	0.1798  La desparasitación con pastillas debe repetirse cada tres o cuatro meses.
+	0.1565  Siempre hay que dejar un recipiente con agua limpia al alcance del animal.
+	0.1526  Un cambio repentino de apetito puede ser señal de que algo anda mal.
+	0.1266  Los peces tropicales requieren un filtro limpio y temperatura estable en el acuario.
+	0.0878  Los mininos marcan su territorio frotando la cabeza contra los muebles.
+Léxico
+	     1  Los peces tropicales requieren un filtro limpio y temperatura estable en el acuario.
+	Blindaje: RECHAZADO (similitud 0.1798 bajo el umbral 0.35)
+
+======================================================================
+Resumen: consultas fuera de dominio
+======================================================================
+Consultas intrusas evaluadas: 5
+Respondidas con confianza pese a ser de otro dominio: 0
+Lo correcto es 0: una consulta de mecánica no debería obtener respuesta de un corpus de mascotas.
+
+Corrida con oraciones simuladas.

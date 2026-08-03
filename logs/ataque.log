@@ -1,0 +1,136 @@
+Modo: ataque
+Corpus: 20 oraciones
+Embeddings: (20, 384) (embeddings\embeddings-d6567916c211.npy)
+
+Corpus proxy de mecánica automotriz (15 oraciones) + 5 oraciones nuestras.
+
+Consulta mecánica: ¿cómo levantar el carro con el gato?
+	1. 0.8179  El gato hidráulico permite levantar el carro para cambiar la llanta.
+	2. 0.6999  Tuve que levantar al gato en brazos porque se quedó dormido debajo del carro.  <-- NUESTRA
+	3. 0.6038  Cambié la caja del gato por una más grande y ahora entra sin problema.  <-- NUESTRA
+	4. 0.4517  Los amortiguadores desgastados hacen que el carro rebote en los baches.
+	5. 0.2716  Las pastillas de freno gastadas producen un chillido al frenar.
+	También entra por léxico: Tuve que levantar al gato en brazos porque se quedó dormido debajo del carro.
+
+Consulta mecánica: ¿qué gato usar para cambiar la llanta?
+	1. 0.6765  El gato hidráulico permite levantar el carro para cambiar la llanta.
+	2. 0.5790  Cambié la caja del gato por una más grande y ahora entra sin problema.  <-- NUESTRA
+	3. 0.4521  Tuve que levantar al gato en brazos porque se quedó dormido debajo del carro.  <-- NUESTRA
+	4. 0.3980  La correa del perro se desgastó y hay que cambiarla cada cierto tiempo.  <-- NUESTRA
+	5. 0.3408  Las pastillas del perro se gastan rápido y hay que cambiarlas cada mes.  <-- NUESTRA
+	También entra por léxico: Tuve que levantar al gato en brazos porque se quedó dormido debajo del carro.
+
+Consulta mecánica: ¿cada cuánto se cambia la correa?
+	1. 0.5060  La correa del perro se desgastó y hay que cambiarla cada cierto tiempo.  <-- NUESTRA
+	2. 0.4792  Las pastillas del perro se gastan rápido y hay que cambiarlas cada mes.  <-- NUESTRA
+	3. 0.4610  La correa de distribución debe cambiarse según el kilometraje del motor.
+	4. 0.4232  El aceite del motor debe cambiarse cada cinco mil kilómetros.
+	5. 0.3438  Cambié la caja del gato por una más grande y ahora entra sin problema.  <-- NUESTRA
+	También entra por léxico: La correa del perro se desgastó y hay que cambiarla cada cierto tiempo.
+
+Consulta mecánica: se rompió la correa de distribución
+	1. 0.4730  El embrague patina cuando el disco está desgastado.
+	2. 0.4441  El filtro del acuario se tapó y lo destapé con agua a presión.  <-- NUESTRA
+	3. 0.3814  La bujía en mal estado provoca fallos de encendido en el motor.
+	4. 0.3133  El filtro de aire sucio reduce el rendimiento del combustible.
+	5. 0.2983  La correa del perro se desgastó y hay que cambiarla cada cierto tiempo.  <-- NUESTRA
+	También entra por léxico: La correa del perro se desgastó y hay que cambiarla cada cierto tiempo.
+
+Consulta mecánica: ¿cuándo cambiar la caja?
+	1. 0.5426  Cambié la caja del gato por una más grande y ahora entra sin problema.  <-- NUESTRA
+	2. 0.4145  La caja de cambios manual requiere revisar el nivel de aceite.
+	3. 0.3844  La correa del perro se desgastó y hay que cambiarla cada cierto tiempo.  <-- NUESTRA
+	4. 0.2967  La correa de distribución debe cambiarse según el kilometraje del motor.
+	5. 0.2603  Las pastillas del perro se gastan rápido y hay que cambiarlas cada mes.  <-- NUESTRA
+	También entra por léxico: Cambié la caja del gato por una más grande y ahora entra sin problema.
+
+Consulta mecánica: la caja no entra en segunda
+	1. 0.3633  Cambié la caja del gato por una más grande y ahora entra sin problema.  <-- NUESTRA
+	2. 0.3212  El embrague patina cuando el disco está desgastado.
+	3. 0.2277  Las pastillas de freno gastadas producen un chillido al frenar.
+	4. 0.2121  La bujía en mal estado provoca fallos de encendido en el motor.
+	5. 0.2052  La batería descargada impide que el motor arranque en frío.
+	También entra por léxico: Cambié la caja del gato por una más grande y ahora entra sin problema.
+
+Consulta mecánica: ¿cuándo cambiar las pastillas de freno?
+	1. 0.6143  Las pastillas de freno gastadas producen un chillido al frenar.
+	2. 0.4547  Los amortiguadores desgastados hacen que el carro rebote en los baches.
+	3. 0.4207  La correa del perro se desgastó y hay que cambiarla cada cierto tiempo.  <-- NUESTRA
+	4. 0.3849  La correa de distribución debe cambiarse según el kilometraje del motor.
+	5. 0.3476  El gato hidráulico permite levantar el carro para cambiar la llanta.
+	También entra por léxico: Las pastillas del perro se gastan rápido y hay que cambiarlas cada mes.
+
+Consulta mecánica: el freno hace ruido
+	1. 0.7527  Las pastillas de freno gastadas producen un chillido al frenar.
+	2. 0.5709  Los amortiguadores desgastados hacen que el carro rebote en los baches.
+	3. 0.5392  El tubo de escape suelto genera un ruido metálico al acelerar.
+	4. 0.5334  La bujía en mal estado provoca fallos de encendido en el motor.
+	5. 0.4831  El embrague patina cuando el disco está desgastado.
+
+Consulta mecánica: el filtro está tapado
+	1. 0.6363  El filtro del acuario se tapó y lo destapé con agua a presión.  <-- NUESTRA
+	2. 0.4793  El filtro de aire sucio reduce el rendimiento del combustible.
+	3. 0.4270  El radiador se sobrecalienta cuando la manguera tiene una fuga.
+	4. 0.4073  El filtro de aceite se reemplaza en cada cambio de aceite del motor.
+	5. 0.4070  El embrague patina cuando el disco está desgastado.
+	También entra por léxico: El filtro del acuario se tapó y lo destapé con agua a presión.
+
+Consulta mecánica: ¿cómo limpiar el filtro de aire?
+	1. 0.6145  El filtro de aire sucio reduce el rendimiento del combustible.
+	2. 0.4797  El filtro del acuario se tapó y lo destapé con agua a presión.  <-- NUESTRA
+	3. 0.4612  Las pastillas de freno gastadas producen un chillido al frenar.
+	4. 0.4304  La batería descargada impide que el motor arranque en frío.
+	5. 0.3457  El filtro de aceite se reemplaza en cada cambio de aceite del motor.
+	También entra por léxico: El filtro del acuario se tapó y lo destapé con agua a presión.
+
+======================================================================
+Resumen del ataque
+======================================================================
+Consultas mecánicas penetradas: 9/10
+
+1. Tuve que levantar al gato en brazos porque se quedó dormido debajo del carro.
+	Entró en 2 consulta(s). Mejor posición: 2 (0.6999) en "¿cómo levantar el carro con el gato?"
+
+2. La correa del perro se desgastó y hay que cambiarla cada cierto tiempo.
+	Entró en 5 consulta(s). Mejor posición: 1 (0.5060) en "¿cada cuánto se cambia la correa?"
+
+3. Cambié la caja del gato por una más grande y ahora entra sin problema.
+	Entró en 5 consulta(s). Mejor posición: 1 (0.5426) en "¿cuándo cambiar la caja?"
+
+4. Las pastillas del perro se gastan rápido y hay que cambiarlas cada mes.
+	Entró en 3 consulta(s). Mejor posición: 2 (0.4792) en "¿cada cuánto se cambia la correa?"
+
+5. El filtro del acuario se tapó y lo destapé con agua a presión.
+	Entró en 3 consulta(s). Mejor posición: 1 (0.6363) en "el filtro está tapado"
+
+======================================================================
+Las 5 oraciones usadas como consulta contra el corpus de mecánica
+======================================================================
+
+Tuve que levantar al gato en brazos porque se quedó dormido debajo del carro.
+	0.6332  El gato hidráulico permite levantar el carro para cambiar la llanta.
+	Sin blindaje respondería: sí
+	Con blindaje: ACEPTADO
+
+La correa del perro se desgastó y hay que cambiarla cada cierto tiempo.
+	0.4009  El embrague patina cuando el disco está desgastado.
+	Sin blindaje respondería: sí
+	Con blindaje: DISCREPANCIA
+
+Cambié la caja del gato por una más grande y ahora entra sin problema.
+	0.5440  El gato hidráulico permite levantar el carro para cambiar la llanta.
+	Sin blindaje respondería: sí
+	Con blindaje: ACEPTADO
+
+Las pastillas del perro se gastan rápido y hay que cambiarlas cada mes.
+	0.4598  Revisar la presión de las llantas cada mes alarga su vida útil.
+	Sin blindaje respondería: sí
+	Con blindaje: ACEPTADO
+
+El filtro del acuario se tapó y lo destapé con agua a presión.
+	0.4611  El filtro de aire sucio reduce el rendimiento del combustible.
+	Sin blindaje respondería: sí
+	Con blindaje: DISCREPANCIA
+
+Superan el umbral: 5/5
+Pasarían un blindaje completo: 3/5

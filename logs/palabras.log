@@ -1,0 +1,61 @@
+Modo: palabras
+Corpus: 25 oraciones
+Embeddings: (25, 384) (embeddings\embeddings-b9f509d99adf.npy)
+
+Consulta: gato
+Semántico
+	0.6253  Un gato adulto suele ser más independiente que un perro de la misma edad.
+	0.5672  Es importante limpiar la caja de arena del gato todos los días.
+	0.5198  Los gatos duermen entre catorce y dieciséis horas al día.
+	0.4700  Mi felino se pasa la tarde durmiendo en la ventana bajo el sol.
+	0.3304  El chocolate y la cebolla son tóxicos para perros y gatos.
+Léxico
+	     1  Es importante limpiar la caja de arena del gato todos los días.
+	     1  Un gato adulto suele ser más independiente que un perro de la misma edad.
+	Se separan en el top-1.
+
+Consulta: correa
+Semántico
+	0.2330  Los mininos marcan su territorio frotando la cabeza contra los muebles.
+	0.1646  Esterilizar a los animales ayuda a controlar la sobrepoblación en las calles.
+	0.1409  Siempre hay que dejar un recipiente con agua limpia al alcance del animal.
+	0.1311  Las razas grandes suelen requerir más espacio y ejercicio que las pequeñas.
+	0.1190  Es importante limpiar la caja de arena del gato todos los días.
+Léxico
+	     1  Sacar al can con su correa a pasear todas las tardes mejora su comportamiento en casa.
+	Se separan en el top-1.
+
+Consulta: caja
+Semántico
+	0.2439  Los mininos marcan su territorio frotando la cabeza contra los muebles.
+	0.2291  Es importante limpiar la caja de arena del gato todos los días.
+	0.1780  Siempre hay que dejar un recipiente con agua limpia al alcance del animal.
+	0.1302  Adoptar un animal de un refugio le da una segunda oportunidad de vida.
+	0.1239  Mi felino se pasa la tarde durmiendo en la ventana bajo el sol.
+Léxico
+	     1  Es importante limpiar la caja de arena del gato todos los días.
+	Se separan en el top-1.
+
+Consulta: filtro
+Semántico
+	0.3352  Los peces tropicales requieren un filtro limpio y temperatura estable en el acuario.
+	0.2913  Siempre hay que dejar un recipiente con agua limpia al alcance del animal.
+	0.2500  Las vacunas contra la rabia son obligatorias en la mayoría de los países.
+	0.2013  Es importante limpiar la caja de arena del gato todos los días.
+	0.1378  Esterilizar a los animales ayuda a controlar la sobrepoblación en las calles.
+Léxico
+	     1  Los peces tropicales requieren un filtro limpio y temperatura estable en el acuario.
+	Coinciden en el top-1.
+
+Consulta: pastillas
+Semántico
+	0.3330  Los mininos marcan su territorio frotando la cabeza contra los muebles.
+	0.1816  Un cambio repentino de apetito puede ser señal de que algo anda mal.
+	0.1699  Las aves domésticas cantan más cuando reciben luz natural por la mañana.
+	0.1651  Siempre hay que dejar un recipiente con agua limpia al alcance del animal.
+	0.1503  El chocolate y la cebolla son tóxicos para perros y gatos.
+Léxico
+	     1  La desparasitación con pastillas debe repetirse cada tres o cuatro meses.
+	Se separan en el top-1.
+
+Top-1 coincidente en 1/5 consultas.

@@ -1,0 +1,58 @@
+Modo: ambiguas
+Corpus: 25 oraciones
+Embeddings: (25, 384) (embeddings\embeddings-b9f509d99adf.npy)
+Umbral: 0.35 | Margen mínimo: 0.05
+
+Consulta: ¿cada cuánto se le cambia la correa?
+Semántico
+	0.4338  La desparasitación con pastillas debe repetirse cada tres o cuatro meses.
+	0.2674  Mi cachorro labrador aprendió a sentarse en apenas dos semanas de entrenamiento.
+	0.2252  Un cambio repentino de apetito puede ser señal de que algo anda mal.
+	0.1945  Los perros necesitan al menos una caminata diaria para mantenerse sanos.
+	0.1918  Sacar al can con su correa a pasear todas las tardes mejora su comportamiento en casa.
+	Blindaje: DISCREPANCIA	(los dos métodos apuntan a documentos distintos)
+
+Consulta: necesito un gato
+Semántico
+	0.5411  Es importante limpiar la caja de arena del gato todos los días.
+	0.5097  Los gatos duermen entre catorce y dieciséis horas al día.
+	0.4979  Un gato adulto suele ser más independiente que un perro de la misma edad.
+	0.4092  Mi felino se pasa la tarde durmiendo en la ventana bajo el sol.
+	0.3360  Antes de comprar una mascota conviene considerar la adopción responsable.
+	Blindaje: AMBIGUO	(margen top-1/top-2 de 0.0314)
+
+Consulta: la caja está sucia
+Semántico
+	0.3611  Los mininos marcan su territorio frotando la cabeza contra los muebles.
+	0.3166  Es importante limpiar la caja de arena del gato todos los días.
+	0.2470  El chocolate y la cebolla son tóxicos para perros y gatos.
+	0.2325  Siempre hay que dejar un recipiente con agua limpia al alcance del animal.
+	0.1659  Darle comida de humanos a la mascota puede causarle problemas digestivos.
+	Blindaje: AMBIGUO	(margen top-1/top-2 de 0.0446)
+
+Consulta: se me acabaron las pastillas
+Semántico
+	0.3438  Los mininos marcan su territorio frotando la cabeza contra los muebles.
+	0.3067  Un cambio repentino de apetito puede ser señal de que algo anda mal.
+	0.2188  Siempre hay que dejar un recipiente con agua limpia al alcance del animal.
+	0.2162  Es importante limpiar la caja de arena del gato todos los días.
+	0.2033  La desparasitación con pastillas debe repetirse cada tres o cuatro meses.
+	Blindaje: RECHAZADO	(similitud 0.3438 bajo el umbral 0.35)
+
+Consulta: el filtro dejó de funcionar
+Semántico
+	0.2356  Los peces tropicales requieren un filtro limpio y temperatura estable en el acuario.
+	0.2178  Siempre hay que dejar un recipiente con agua limpia al alcance del animal.
+	0.1693  La desparasitación con pastillas debe repetirse cada tres o cuatro meses.
+	0.1542  Las vacunas contra la rabia son obligatorias en la mayoría de los países.
+	0.1153  Un perro que ladra en exceso puede estar sufriendo ansiedad por separación.
+	Blindaje: RECHAZADO	(similitud 0.2356 bajo el umbral 0.35)
+
+Consulta: arranca a correr apenas abro la puerta
+Semántico
+	0.2463  Las razas grandes suelen requerir más espacio y ejercicio que las pequeñas.
+	0.2332  Mi felino se pasa la tarde durmiendo en la ventana bajo el sol.
+	0.2309  Los mininos marcan su territorio frotando la cabeza contra los muebles.
+	0.2228  Un perro que ladra en exceso puede estar sufriendo ansiedad por separación.
+	0.2128  Mi cachorro labrador aprendió a sentarse en apenas dos semanas de entrenamiento.
+	Blindaje: RECHAZADO	(similitud 0.2463 bajo el umbral 0.35)
