@@ -219,3 +219,10 @@ __marimo__/
 
 # claude
 .claude/
+
+# embeddings
+*.npy
+embeddings/*.npy
+
+# los logs de las corridas son evidencia del analisis, se versionan
+!logs/*.log
